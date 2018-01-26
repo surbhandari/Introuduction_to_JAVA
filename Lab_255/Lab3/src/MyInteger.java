@@ -106,20 +106,28 @@ public class MyInteger {
 	*   characters to an int value */
 	public static int parseInt(char[] chars) {
 		int value = 0;
-		for (int i = 0, j = (int)Math.pow(10, chars.length - 1); 
-			  i < chars.length; i++, j /= 10) {
-			value += (chars[i]- 48) * j;
+		for (int i = 0;i<chars.length;i++){
+			value=value*10+(Character.getNumericValue(chars[i]));
 		}
 		return value;
 	}
 
 	/** Converts a string into an int value */
-	public static int parseInt(String str) {
+	public static void parseInt(String str) {
+	for(int i=0;i<str.length();i++)
+    {
+        char  c = str.charAt(i);
+        int x =Character.getNumericValue(c);
+        System.out.print(x);
+    }
+	System.out.println();
+	}
+	/*public static int parseInt(String str) {
 		int value = 0;
 		for (int i = 0, j = (int)Math.pow(10, str.length() - 1); 
 			  i < str.length(); i++, j /= 10) {
 			value += (str.charAt(i) - 48) * j;
 		}
 		return value;
-	}
+	}*/
 }

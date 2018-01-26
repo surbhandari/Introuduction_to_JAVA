@@ -34,7 +34,7 @@ public class Lab3Main {
 	    System.out.println(MyInteger.parseInt(chars));
 
 	    String s = "3539";
-	    System.out.println(MyInteger.parseInt(s));
+	    MyInteger.parseInt(s);
 	    
 	    MyInteger n2 = new MyInteger(24);
 	    System.out.println("n2 is odd? " + n2.isOdd());
