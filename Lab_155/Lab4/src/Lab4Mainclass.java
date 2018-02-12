@@ -26,12 +26,6 @@ public class Lab4Mainclass {
 	System.out.println("Enter the Loan Period : ");
 	double loanPeriod = sc.nextDouble();
 	
-	System.out.println("                   OUTPUT         ");
-	System.out.println("Loan Amount: " +loanAmount);
-	System.out.println("-----------------------");
-	System.out.println();
-	System.out.println("Number of years : " +loanPeriod);
-	System.out.println("-----------------------");
 	System.out.println("Interest Rate    Monthly Payment	 Total Payment");
 	System.out.println("--------------------------------------------------------");
 	for (double annualInterestRate = 5.00; annualInterestRate <= 8.00; annualInterestRate += 0.125) {
