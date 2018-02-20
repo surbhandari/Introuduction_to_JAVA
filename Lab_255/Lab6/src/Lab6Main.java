@@ -43,7 +43,7 @@ public class Lab6Main extends Application {
 	    		//for window we give file path as :
 	    		//Image image=new Image("file:///C:\\Users\\Surya.Bhandari\\Downloads\\image\\"+card+".png");
 	    		//for linux we give file path this way 
-	    		Image image = new Image("file:/home/as20510/Downloads/cards/"+card+".png");
+	    		Image image = new Image("file:/home/as20510/git_repo/Introuduction_to_JAVA/Lab_255/Lab6/src/image/cards/"+card+".png");
 	    		pane.getChildren().add(new ImageView(image));
 	    		count++;
 	    	}
