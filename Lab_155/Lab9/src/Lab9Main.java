@@ -1,3 +1,8 @@
+/*Lab Practice #9CSC-155 (4CH): Intro. ProgrammingProblem Description: 
+Write a program that prompts the user to enter a phone number as a string 
+(e.g., 1-800-Flowers, 1-800-356-9377, 1800flowers or 18003569377). 
+The program translates a letter to a digit (see the attached figure) and leaves all other characters intact
+*/
 import java.util.Scanner;
 
 public class Lab9Main {
