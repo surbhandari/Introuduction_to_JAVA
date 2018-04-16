@@ -29,7 +29,7 @@ public class Matrix {
 			for(int j =0;j<4;j++) {
 				rowsum+=matrix[i][j];
 			}
-			System.out.println("The sum of row  "+ (i+1)+"  is "+  rowsum);
+			System.out.println("The average of row  "+ (i+1)+"  is "+  (rowsum/4));
 		}
 		
 		//finding and printing the sum of each column
@@ -38,7 +38,7 @@ public class Matrix {
 			for(int i =0;i<3;i++) {
 				colsum+=matrix[i][j];
 			}
-			System.out.println("The sum of column  "+ (j+1)+"  is "+  colsum);
+			System.out.println("The average of column  "+ (j+1)+"  is "+  (colsum/3));
 		}
 		
 		
